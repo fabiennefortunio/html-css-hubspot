@@ -1,34 +1,95 @@
 * {
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
-    box sizing: border-box;
+    box-sizing: border-box;
+
 }
 /* Body */
 
 body {
-    color: #33475b;
+
+
+}
+/* Container */
+
+.container {
+    width: 100%;
+    height: auto;
+
 
 }
 
 /* Header */
-header {
-    padding: 0;
-    margin: 0;
-    
-}
 
-.navtop left {
-    display: block;
-    padding: 0;
-    margin: 0;
-    float:left;
-    padding: 20;
-    margin: 10;
-    color: #33475b;
-
+.navtop_left {
+    height: 70px;
+    width: 50%;
+    background-color: #f5f8fb;
+    text-decoration: none; /* non funziona */
 
 }
 
-.navtop right {
+.navtop_right {
+    float: right;
+    background-color: #f5f8fb;
+}
 
+
+.menu {
+    height: 80px;
+    background-color: red;
+
+}
+
+.jumbo {
+    height: 600px;
+    position: relative;
+
+}
+
+img {
+    display: inline-block;
+    margin:auto;
+    bottom: 0;
+    max-width: auto;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 1;
+
+}
+/* Sections */
+
+.section1 {
+    height: 450px;
+    background-color: yellow;
+
+}
+
+.section2 {
+    height: 630px;
+    background-color: orange;
+}
+
+.section3 {
+    height: 290px;
+    background-color: white;
+}
+
+.section4 {
+    height: 670px;
+    background-color: orange;
+}
+
+.section5 {
+    height: 660px;
+    background-color: blue;
+}
+
+/* Footer */
+
+footer {
+    margin: auto;
+    width: 100%;
+    height: 140px;
+    background-color: black;
 }
