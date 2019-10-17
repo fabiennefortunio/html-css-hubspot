@@ -27,6 +27,10 @@ body {
     content: "";
 
 }
+
+.logomondo {
+    float:left;
+}
 .navtop_left {
     float: left;
     height: 70px;
@@ -45,8 +49,11 @@ body {
 
 }
 
-#search {
+.i {
     float:left;
+    height: 36px;
+    width: 26px;
+
 }
 
 #cta_login {
@@ -61,8 +68,10 @@ body {
     float:right;
 }
 
+
+
 .menu {
-    
+
     /* background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg); */
 
 }
