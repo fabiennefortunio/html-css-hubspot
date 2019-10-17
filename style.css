@@ -34,6 +34,7 @@ body {
     background-color: #f5f8fb;
 
 
+
 }
 
 .navtop_right {
@@ -47,7 +48,8 @@ body {
 
 .menu {
     height: 80px;
-    
+
+
     /* background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg); */
 
 }
@@ -63,13 +65,25 @@ body {
     height: 600px;
     position: relative;
     background-color: #fbf1ee;
-    background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png");
+    /* background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png"); */
     background-repeat: no-repeat;
-
+    background-position: bottom;
 }
 
-img {
+.homepage-text {
+    max-width: 430px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+}
 
+h1 {
+    font-size: 3.438rem;
+    line-height: 1.1818;
+
+}
+img {
+    margin: 2%;
 
 }
 /* Sections */
@@ -101,6 +115,10 @@ img {
 .section5 {
     height: 660px;
     background-color: blue;
+}
+.section6 {
+    height: 656px;
+    background-color: grey;
 }
 
 
