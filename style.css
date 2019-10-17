@@ -65,6 +65,9 @@ img {
 
 }
 
+.sction1, logo {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png);
+}
 .section2 {
     height: 630px;
     background-color: orange;
