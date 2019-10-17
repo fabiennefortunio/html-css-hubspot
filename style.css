@@ -71,17 +71,26 @@ body {
 }
 
 .homepage-text {
-    max-width: 430px;
+    max-width: 500px;
     text-align: left;
     z-index: 2;
     position: relative;
+    padding: 50px;
 }
+
 
 h1 {
     font-size: 3.438rem;
     line-height: 1.1818;
-
 }
+
+
+p {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 img {
     margin: 2%;
 
