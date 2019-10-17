@@ -45,11 +45,24 @@ body {
 
 }
 
+#search {
+    float:left;
+}
+
+#cta_login {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.563rem 1rem;
+    float: right;
+}
+
+#cta_get_hubspotfree {
+    float:right;
+}
 
 .menu {
-    height: 80px;
-
-
+    
     /* background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg); */
 
 }
