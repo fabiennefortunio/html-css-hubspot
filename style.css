@@ -47,9 +47,15 @@ body {
 
 .menu {
     height: 80px;
-    background-color: red;
+    
     /* background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg); */
 
+}
+
+.menu:after {
+        clear: both;
+        display: table;
+        content: "";
 }
 
 
@@ -57,6 +63,8 @@ body {
     height: 600px;
     position: relative;
     background-color: #fbf1ee;
+    background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png");
+    background-repeat: no-repeat;
 
 }
 
