@@ -12,7 +12,7 @@ body {
 }
 /* Container */
 
-.container,container2, container3, container4, container5, container6, container7, container8, container9, container10, container11, container12 {
+.container, container2, container3, container4, container5, container6, container7, container8, container9, container10, container11, container12 {
     width: 1080px;
     height: auto;
     margin: 0 auto;
@@ -36,8 +36,6 @@ body {
     height: 70px;
     width: 50%;
     background-color: #f5f8fb;
-
-
 
 }
 
@@ -87,7 +85,6 @@ body {
         content: "";
 }
 
-
 .jumbo {
     height: 600px;
     position: relative;
@@ -111,6 +108,10 @@ h1 {
     line-height: 1.1818;
 }
 
+h2 {
+    text-align: center;
+}
+
 
 p {
     font-size: 1em;
@@ -126,7 +127,7 @@ img {
 
 .section1 {
     height: 450px;
-    background-color: yellow;
+    background-color: #f5f8fb;
 
 }
 
@@ -135,12 +136,12 @@ img {
 }
 .section2 {
     height: 630px;
-    background-color: orange;
+    background-color: #57b8ac;
 }
 
 .section3 {
     height: 290px;
-    background-color: white;
+    background-color: #fefefe;
 }
 
 .section4 {
@@ -154,7 +155,7 @@ img {
 }
 .section6 {
     height: 656px;
-    background-color: grey;
+    background-color: #33475b;
 }
 
 
