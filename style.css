@@ -49,6 +49,11 @@ body {
 
 }
 
+.button {
+    cursor: pointer;
+
+}
+
 .i {
     float:left;
     height: 36px;
