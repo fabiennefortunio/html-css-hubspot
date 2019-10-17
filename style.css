@@ -1,5 +1,5 @@
 * {
-    margin: 0 20px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -8,51 +8,60 @@
 
 body {
 
+
 }
 /* Container */
 
-.container {
-    width: 100%;
+.container,container2, container3, container4, container5, container6, container7, container8, container9, container10, container11, container12 {
+    width: 1080px;
     height: auto;
+    margin: 0 auto;
 
 }
 
 /* Header */
 
+.navtop:after {
+    clear: both;
+    display: table;
+    content: "";
+
+}
 .navtop_left {
+    float: left;
     height: 70px;
     width: 50%;
     background-color: #f5f8fb;
-    text-decoration: none; /* non funziona */
+
 
 }
 
 .navtop_right {
+    height: 70px;
+    width: 50%;
     float: right;
     background-color: #f5f8fb;
+
 }
 
 
 .menu {
     height: 80px;
     background-color: red;
+    /* background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg); */
 
 }
+
 
 .jumbo {
     height: 600px;
     position: relative;
+    background-color: #fbf1ee;
 
 }
 
 img {
-    display: inline-block;
-    margin:auto;
-    bottom: 0;
-    max-width: auto;
-    vertical-align: middle;
-    position: absolute;
-    z-index: 1;
+
 
 }
 /* Sections */
@@ -86,11 +95,13 @@ img {
     background-color: blue;
 }
 
+
+
 /* Footer */
 
 footer {
     margin: auto;
     width: 100%;
     height: 140px;
-    background-color: black;
+    background-color: pink;
 }
