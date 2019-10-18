@@ -7,6 +7,7 @@
 /* Body */
 
 body {
+    font-family: 'Nunito Sans', sans-serif;
 
 
 }
@@ -47,17 +48,18 @@ body {
 
 }
 
+#search {
+    float:left;
+    height: 36px;
+    width: 26px;
+    display: inline;
+}
+
 .button {
     cursor: pointer;
 
 }
 
-.i {
-    float:left;
-    height: 36px;
-    width: 26px;
-
-}
 
 #cta_login {
     display: inline-block;
