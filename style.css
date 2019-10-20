@@ -20,15 +20,6 @@ body {
 
 }
 
-.jumbo, button {
-    padding: 30px 65px;
-    background-color: #ff7a59;
-    border-radius: 3px;
-
-
-}
-
-
 /* Header */
 
 
@@ -141,6 +132,15 @@ body {
     /* background-image: url("https://i.postimg.cc/W4tGDrzm/Immagine.png"); */
     background-repeat: no-repeat;
     background-position: bottom;
+
+}
+
+.JumboButton button {
+    color: white;
+    font-size: 15px;
+    padding: 30px 65px;
+    background-color: #ff7a59;
+    border-radius: 3px;
 }
 
 .homepage-text {
@@ -149,12 +149,13 @@ body {
     z-index: 2;
     position: relative;
     padding: 50px;
+    
 }
 
 
 h1 {
-    font-size: 3.438rem;
-    line-height: 1.1818;
+    font-size: 40px;
+
 }
 
 h2 {
