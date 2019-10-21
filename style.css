@@ -42,10 +42,12 @@ body {
     padding: 22px;
 
 
+
 }
 
 .navtopleft, texto1 {
     text-decoration: none;
+    padding-top: 1.3%;
 }
 
 .navtop_right {
@@ -67,6 +69,7 @@ body {
 
 .search {
     margin-left: 35%;
+    padding-top: 1.3%;
 }
 
 
